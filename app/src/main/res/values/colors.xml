@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#60BFB8</color>
+    <color name="colorPrimaryDark">#0F060B</color>
+    <color name="colorAccent">#D72F47</color>
+
+
+    <color name="colorTitulo">#ffffff</color>
+    <color name="degrade1">#8c000000</color>
+    <color name="degrade2">#96000000</color>
+    <color name="degrade3">#a0000000</color>
+    <color name="fondoDetalle">#21998e8e</color>
+
+    //PALETA COLORES
+    <color name="paleta1">#FDFEFE</color>
+    <color name="paleta2">#7FB3D5</color>
+    <color name="paleta3">#76D7C4</color>
+    <color name="paleta4">#2471A3</color>
+    <color name="paleta5">#48C9B0</color>
+
+
+    //NUEVA PALETA DE COLORES ANDY
+
+    <color name="acento">#D72F47</color>
+    <color name="primarioOscuro">#0F060B</color>
+    <color name="colorTextoEnFondoOscuro">#FFFEFF</color>
+    <color name="primario">#60BFB8</color>
+    <color name="primarioMasFuerte">#48BBAE</color>
+
+
+</resources>

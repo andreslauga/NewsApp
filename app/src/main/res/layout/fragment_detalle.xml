@@ -1,0 +1,85 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="digitalhouse.android.a0317moacns1c_01.View.Fragments.FragmentDetalle">
+
+
+        <TextView
+            android:id="@+id/textViewDetalleTituloNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:text="Titulo"
+            android:textSize="40sp"/>
+
+        <CheckBox
+            android:id="@+id/estrellaFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/fav_estados"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="Autor"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textViewDetalleAutor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="italic"
+            android:text="31 de mayo de 2017"
+            android:id="@+id/textViewDetalleFecha"/>
+
+        <ImageView
+            android:id="@+id/imageViewDetalleNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            android:background="@color/fondoDetalle"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:text="Pie del foto de la noticia"
+            android:id="@+id/textViewDetallePieDeFoto"/>-->
+
+
+        <TextView
+            android:id="@+id/textViewDetallePContenidoNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_margin="15dp"
+            android:text="Contenido:"
+            android:textSize="23sp"/>
+
+
+
+</LinearLayout>
+    </ScrollView>

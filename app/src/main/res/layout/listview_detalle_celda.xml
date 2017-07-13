@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/degradePrimero"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/degrade1"
+            />
+        <ImageView
+            android:id="@+id/degradeMedio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/degrade2"
+            />
+        <ImageView
+            android:id="@+id/degradeAbajo"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/degrade3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+
+        >
+
+        <TextView
+            android:id="@+id/textViewTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Titulo Noticia"
+            android:textColor="@color/colorTitulo"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:maxLines="3"/>
+
+        <TextView
+            android:id="@+id/textViewContenido"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/colorTitulo"
+            tools:text="Contenido Noticia"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:maxLines="3"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
